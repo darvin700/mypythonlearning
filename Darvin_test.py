@@ -70,3 +70,8 @@ name="darvinroy"
 print(f" display from {name[2:6:1]}")
 
 print(name.upper())
+
+print(type(name))
+print(dir(name))
+print(help(str))
+print(dir(__builtins__))

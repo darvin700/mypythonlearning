@@ -31,3 +31,25 @@ print(f"print after removal :{l}")
 
 buffer5 = [1,2,3,4,5]
 print(len(buffer5))
+
+s="nitin"
+if s == s[::-1]:
+    print("palindrom")
+else:
+    print("not a palindrom")
+
+st="brazil"
+l=int(len(st)/2)
+s=st[l::-1]
+print(s)
+print(s+st[l+1::])
+print(l)
+#print(s[0:l])
+
+d="Python"
+print(d.startswith("P"))
+d="Python"
+print(d.endswith("n"))
+d="python"
+print(d.capitalize())
+

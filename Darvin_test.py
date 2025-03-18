@@ -65,3 +65,6 @@ print(f"value of x is {abs(x)}")
 print(f"value of x is {x}")
 
 print (2**-3)
+
+name="darvinroy"
+print(f" display from {name[2:6:1]}")

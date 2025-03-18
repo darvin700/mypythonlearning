@@ -68,3 +68,5 @@ print (2**-3)
 
 name="darvinroy"
 print(f" display from {name[2:6:1]}")
+
+print(name.upper())

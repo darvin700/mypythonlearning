@@ -1,3 +1,4 @@
+'''
 a = 20
 b= 30
 #print("olda %d oldb %d"%(a,b))
@@ -75,3 +76,12 @@ print(type(name))
 print(dir(name))
 print(help(str))
 print(dir(__builtins__))
+
+'''
+
+a = [100, 1, 200, 2, 3, "python", "jaava", [1, 2], "python"]
+for i in range(a.count("python")):
+    a.remove("python")
+a.remove("yyy")
+
+print(a)

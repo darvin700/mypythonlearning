@@ -67,6 +67,51 @@ a.display()
 a.append(40)
 a.display()
 
+class stud_record:
+    def __init__(self,name,mark,mark2,roll):
+        self.name = name
+        self.mark = mark
+        self.mark2= mark2
+        self.roll = roll
+
+    def get_name(self):
+        print(f"roll number is {self.roll}","From Parant")
+
+    def display(self):
+        total= self.mark+self.mark2
+        print(f" {self.name} total mark is {total}","from parant")
+
+    def __str__(self):
+        return f"{self.name} is added and mark is {self.mark} , {self.mark2} " + "from parant"
+
+class xam_result(stud_record):
+    def __init_(self,name,mark,mark2):
+        stud_record.__init__(self,name,mark,mark2,roll)
+        self.roll= 25
+
+    def dis(self):
+        print("child display====",self.name,"from child")
+        print("I am child")
+
+
+#stud1=stud_record("darvin",65,78,21)
+#print(stud1)
+
+'''stud2= stud_record("kemi",98,92)
+print(stud2)
+stud2.display()
+stud1.display())
+stud1.name="roy"
+print(stud1.name)
+#print(stud1)'''
+
+ch=xam_result("rrr",1,1,22)
+#ch.name="ttt"
+print(ch.roll)
+
+
+print(help(xam_result))
+
 
 
 

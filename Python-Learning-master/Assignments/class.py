@@ -85,8 +85,9 @@ class stud_record:
         return f"{self.name} is added and mark is {self.mark} , {self.mark2} " + "from parant"
 
 class xam_result(stud_record):
-    def __init_(self,name,mark,mark2):
-        stud_record.__init__(self,name,mark,mark2,roll)
+    def __init_(self,name,mark,mark2,roll):
+        super().__init__(self, name, mark, mark2,roll)
+        #stud_record.__init__(self,name,mark,mark2,roll)
         self.roll= 25
 
     def dis(self):
@@ -94,7 +95,7 @@ class xam_result(stud_record):
         print("I am child")
 
 
-#stud1=stud_record("darvin",65,78,21)
+stud1=stud_record("darvin",65,78,21)
 #print(stud1)
 
 '''stud2= stud_record("kemi",98,92)

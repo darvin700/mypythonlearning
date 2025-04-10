@@ -1,18 +1,4 @@
 1firstline firstline firstline firstline
 2secondline secondline secondline
 3thrird line thrird line thrird line thrird line
-4firstline firstline firstline firstline
-5secondline secondline secondline
-6thrird line thrird line thrird line thrird line
-7firstline firstline firstline firstline
-8secondline secondline secondline
-9thrird line thrird line thrird line thrird line
-10firstline firstline firstline firstline
-11secondline secondline secondline
-12thrird line thrird line thrird line thrird line
-13firstline firstline firstline firstline
-14secondline secondline secondline
-15thrird line thrird line thrird line thrird line
-16firstline firstline firstline firstline
-17secondline secondline secondline
-18thrird line thrird line thrird line thrird line
+
